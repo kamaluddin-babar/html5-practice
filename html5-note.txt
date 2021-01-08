@@ -1,0 +1,19 @@
+HTML5
+interview question 
+1. html vs html5
+2. html semantic tag
+
+media tag 
+	audio, video, iframe
+semantic tag
+	header, footer, main, section, article, nav, aside, time, figure, figcaption, mark, details,summery
+table tag
+	table, thead, tbody, tr, th, td, caption
+others
+	favicon, it is used following a link
+	commenting, select then press Ctrl+/
+	title attribute, used for onmouse toast. 
+	data attributes is used for user defined attribute. e.g- data-pHero=""
+	You can use tag without closing it.
+Navigation tag
+	nav
