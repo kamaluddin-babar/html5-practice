@@ -17,3 +17,8 @@ others
 	You can use tag without closing it.
 Navigation tag
 	nav
+svg scalable vector graphics
+	search on google by "svg element list" "D3" D3= Data Driven Documents
+	D3 is the most imaging thing to visualized data graphically
+
+canvas	cancas vs svg

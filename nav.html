@@ -16,8 +16,21 @@
         }
         nav li{
             list-style: none;
+            padding: 10px 30px;
+        }
+        nav > ul > li{
             float: left;
-            padding: 10px;
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            background-color: lightgray;
+            padding: 0px;
+            margin-top: 10px;
+            
+        }
+        nav > ul > li:hover > ul{
+            display: block;
         }
         nav li:hover{
             background-color: darkgray;
@@ -33,7 +46,13 @@
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Features</a></li>
-            <li><a href="">News</a></li>
+            <li><a href="">News</a>
+                <ul class="dropdown">
+                    <li><a href="">Option-1</a></li>
+                    <li><a href="">Option-2</a></li>
+                    <li><a href="">Option-3</a></li>
+                </ul>
+            </li>
             <li><a href="">About us</a></li>
         </ul>
     </nav>
